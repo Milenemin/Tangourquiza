@@ -19,6 +19,10 @@ button a {
   background-color: #ff0062;
   text-decoration: none;
   border-radius: 5px;
+  line-height: 3;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 .btn a {
   text-decoration: none;
