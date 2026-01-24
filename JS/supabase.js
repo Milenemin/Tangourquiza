@@ -49,13 +49,19 @@ function show(data) {
         <button class="read-more"><u>Læs mere<u></button>
 
         <dialog>
-          <h2>TANGO BEGYNDER - TORSDAG 19:00-20:30</h2>
-          <p><strong>med Linus og Miamanda</p>
-          <p>Adresse: Øster Farimagsgade 16B, 2100 København Ø, Danmark </p>
+          <h2>TANGO BEGYNDER - TORSDAG 19:00-20:30</h2><br/>
+          
+          <p><strong>med Linus og Miamanda</p><br/>
+          
+          <p>Adresse: Øster Farimagsgade 16B, 2100 København Ø, Danmark </p><br/>
+          
+
+           <p><strong>*Tilmeldning Med partner</p>
           <p class="starter">Vi starter fra bunden og arbejder med de absolut grundlæggende elementer som holdning, balance, kontakt med partneren, og meget mere.
            Undervisningen foregår i et roligt tempo, hvor der er god tid til at øve sig og stille spørgsmål. Du lærer at følge eller føre på en tryg og overskuelig måde, så du kan bevæge dig sikkert ud på dansegulvet.</p>
           <p class="niveauet">Niveauet er Begynder: Dette niveau er for dig, der aldrig har danset tango før, eller som ønsker at genopfriske det mest grundlæggende.  </p>
-           <p>Betaling foregår månedligt med et beløb på 650 DKK. Drop In: 210 DKK</p>
+              
+          <p>Betaling foregår månedligt med et beløb på 650 DKK. Drop In: 210 DKK</p>
           <p class="hvis">*Hvis man køber et månedsabonnement får man 10%
 rabat på begivenheder (det inkluderer milongas, workshops, og Tango Noche).</p>
            

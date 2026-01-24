@@ -213,9 +213,6 @@ button {
   text-decoration: none;
   box-shadow: none;
   outline: none;
-}
-ton,
-button:focus,
-button:active {
-  outline: none;
+  border: none;
+  cursor: pointer;
 }

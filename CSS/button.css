@@ -6,6 +6,10 @@ button {
   border-radius: 5px;
 }
 
+.btn:hover {
+  background: #038377;
+  color: white;
+}
 button a {
   text-decoration: none;
   color: #fcfaf0;
@@ -33,4 +37,18 @@ button a {
   display: flex;
   justify-content: center;
   margin: 13px;
+}
+.translate {
+  /* margin-top: 10px;
+  margin-left: 5px; */
+  height: 40px;
+  width: 77px;
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  background-color: #038377;
+  color: #fcfaf0;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
 }

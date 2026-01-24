@@ -147,7 +147,7 @@ a {
     grid-template-columns: minmax(320px, 1fr) minmax(420px, 1.4fr);
     gap: 40px;
     align-items: center;
-    padding-inline: clamp(24px, 5vw, 80px);
+    padding-inline: clamp(24px, 80px);
     padding-bottom: 50px;
     margin-top: 90px;
   }
@@ -183,8 +183,8 @@ a {
   .teacher {
     display: grid;
     grid-template-columns:
-      minmax(220px, 1fr)
-      minmax(0, 1.5fr)
+      minmax(170px, 1fr)
+      minmax(200px, 1.5fr)
       minmax(220px, 1fr);
     gap: 60px;
     align-items: center;

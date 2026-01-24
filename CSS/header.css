@@ -118,12 +118,12 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 4px solid #038377;
-    padding: 45px 2px;
+    padding: 25px 2px;
     position: relative;
   }
   /* Logo */
   .header-img {
-    max-width: 154px;
+    max-width: 125px;
     width: 100%;
     margin-left: 75px;
     cursor: pointer;
@@ -133,9 +133,9 @@
     position: static;
     width: auto;
     background: none;
-    padding-left: 101px;
+    padding-left: 8px;
     align-items: center;
-    gap: 2rem;
+    gap: 0rem;
   }
 
   /* Menu */
@@ -160,6 +160,11 @@
     text-decoration: none;
     color: #ff2277;
     font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+
+  .menu a:hover {
+    color: #038377;
   }
 
   /* Dropdown */
