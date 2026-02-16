@@ -63,12 +63,18 @@
     margin-bottom: 50px;
     border-radius: 30px;
   }
-
   .playmusic {
-    width: 100px;
-    height: auto; /* bevarer proportioner */
-    margin-left: 160px;
-    margin-bottom: 50px;
+    max-width: 100px; /* or whatever fits your design */
+    display: block;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+
+  .playmusic:hover {
+    transform: scale(1.05);
   }
 
   .teaching-wrapper {
@@ -98,6 +104,12 @@
   /* Desk størrelse */
 }
 @media (min-width: 770px) {
+  main {
+    max-width: 1300px;
+    margin: 0 auto;
+    max-width: 85%;
+  }
+
   .Grid-2-columns-3-rows {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -136,7 +148,8 @@
 
   .imgteaching1 {
     display: block;
-    width: 500px;
+    max-width: 500px;
+    max-width: 100%;
     height: auto;
     margin-left: 53px;
     margin-right: 53px;
@@ -169,7 +182,8 @@
   }
   .playmusic {
     width: 300px;
-    height: auto; /* bevarer proportioner */
+    height: auto;
+    cursor: pointer; /* bevarer proportioner */
     /* margin-left: 155px;
   margin-bottom: 50px; */
   }
@@ -197,7 +211,8 @@
   }
 
   .imgmilonga {
-    width: 500px;
+    max-width: 500px;
+    max-width: 100%;
     height: auto; /* bevarer proportioner */
     margin-left: 53px;
     margin-right: 53px;

@@ -372,6 +372,9 @@
     grid-column: 2;
     max-width: 80%;
   }
+  .p-begynderholdet-2 {
+    margin-bottom: -2rem;
+  }
   .aktivitet {
     /* grid-row: 3; */
     grid-column: 1;
