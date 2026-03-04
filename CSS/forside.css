@@ -99,12 +99,23 @@
 }
 
 /*1 grid 2*/
+.h2-tango {
+  display: grid;
+  grid-template-rows: 54px 104px 90px 1fr;
+  grid-template-columns: 39px 1fr 39px;
+  margin: 53.5px;
+}
 
 .forsidesvg-2 {
   max-width: 100px;
   display: flex;
   margin: auto;
   margin-bottom: 40px;
+}
+.holdplan {
+  grid-row: 3;
+  grid-column: 2;
+  justify-self: center;
 }
 
 h2 {
