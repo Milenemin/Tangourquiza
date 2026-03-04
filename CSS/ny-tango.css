@@ -345,47 +345,7 @@
     grid-row: 3;
     grid-column: 2;
     display: grid;
-<<<<<<< HEAD
-    grid-template-rows: 35px 35px 35px 35px;
-  } */
-
-  .h3-tango {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 0.5fr;
-    gap: 30px 60px;
-    margin-top: 2rem;
-    max-width: 1250px;
-  }
-
-  .teachingclass2 {
-    grid-row: 1 / -1;
-    grid-column: 2;
-    border-radius: 30px;
-    max-width: 100%;
-  }
-
-  .h22 {
-    /* grid-row: 1; */
-    grid-column: 1;
-  }
-
-  .p-begynderholdet {
-    /* grid-row: 2; */
-    grid-column: 2;
-    max-width: 80%;
-  }
-  .p-begynderholdet-2 {
-    margin-bottom: -2rem;
-  }
-  .aktivitet {
-    /* grid-row: 3; */
-    grid-column: 1;
-    grid-row: 2;
-    max-width: 85%;
-=======
     grid-template-rows: 42px 60px 60px 60px;
->>>>>>> refs/remotes/origin/main
   }
   .sko {
     width: 72%;
